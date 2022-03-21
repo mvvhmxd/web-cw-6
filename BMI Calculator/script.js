@@ -12,7 +12,7 @@ function calculate(){
 if(weight === '') {
     alert( "weight is required")
 }
-    let bmi = weight/(height=height);
+    let bmi = weight/(height*height);
     let status = " ";
     if (bmi <18.5)
     {
